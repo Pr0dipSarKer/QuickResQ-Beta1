@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
+        android:background="#eeeeee"
+        android:padding="10dp">
+
+
+        <ImageView
+
+
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/logoc"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image1"
+            android:layout_centerHorizontal="true"
+
+            android:background="@android:color/transparent"
+            android:text="Find services near you.Send your call quickly to your trusted ones in way so nothing fades away. We store it with care"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            />
+        <View
+            android:id="@+id/dummy"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+
+
+        <ImageView
+            android:id="@+id/image2"
+
+            android:layout_width="197dp"
+            android:layout_height="82dp"
+            android:layout_below="@id/image1"
+
+            android:layout_alignRight="@id/dummy"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="-1dp"
+            android:layout_marginBottom="5dp"
+            android:background="#5abbb4"
+            android:src="@drawable/hospitalbuildings" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+
+            android:layout_height="84dp"
+            android:layout_below="@id/image1"
+            android:layout_alignLeft="@id/dummy"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="1dp"
+            android:background="#5abbb4"
+            android:gravity="center|left"
+            android:text="Nearest Hospital"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:id="@+id/image3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_below="@id/image2"
+
+            android:layout_alignRight="@id/dummy"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+
+            android:background="#deab42"
+            android:src="@drawable/emergencyambulance" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+
+            android:layout_height="75dp"
+            android:layout_below="@id/image2"
+            android:layout_alignLeft="@id/dummy"
+            android:layout_alignParentRight="true"
+            android:background="#deab42"
+            android:gravity="center|left"
+            android:text="Emergency Ambulance"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image4"
+
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_below="@id/image3"
+
+            android:layout_alignRight="@id/dummy"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="4dp"
+
+            android:background="#df565e"
+            android:src="@drawable/blood" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+
+            android:layout_height="30dp"
+            android:layout_below="@id/image4"
+            android:layout_alignRight="@id/image4"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="4dp"
+            android:background="#df565e"
+            android:gravity="center"
+            android:text="Find Blood"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/image5"
+
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_below="@id/image3"
+            android:layout_alignLeft="@id/dummy"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginLeft="4dp"
+
+            android:background="#ef8265"
+            android:src="@drawable/police" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="30dp"
+            android:layout_below="@id/image5"
+            android:layout_alignLeft="@id/image5"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
+            android:background="#ef8265"
+            android:gravity="center"
+            android:text="Police Station"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/image6"
+
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_below="@id/text3"
+
+            android:layout_alignRight="@id/dummy"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="4dp"
+
+            android:background="#56b070"
+            android:src="@drawable/firetruck" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+
+            android:layout_height="75dp"
+            android:layout_below="@id/text4"
+            android:layout_alignLeft="@id/dummy"
+            android:layout_alignParentRight="true"
+            android:background="#56b070"
+            android:gravity="center|left"
+            android:text="Fire Services"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- <ImageView
+        android:id="@+id/image8"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_below="@id/text4"
+        android:layout_alignRight="@id/dummy"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/mainmenu" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="351dp"
+
+            android:layout_height="76dp"
+            android:layout_below="@id/text4"
+            android:layout_alignLeft="@id/dummy"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="-86dp"
+            android:layout_marginTop="163dp"
+            android:layout_marginEnd="-59dp"
+            android:layout_marginRight="-59dp"
+            android:layout_toEndOf="@+id/image8"
+            android:background="#56b070"
+            android:gravity="center|left"
+            android:text="Need help now?"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />  -->
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="101dp"
+            android:layout_height="97dp"
+            android:layout_below="@id/text4"
+            android:layout_alignRight="@id/dummy"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="82dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/favoritebutton" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+
+            android:layout_height="97dp"
+            android:layout_below="@id/text4"
+            android:layout_alignLeft="@id/dummy"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="-84dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@+id/image7"
+            android:background="#00FFFF"
+            android:gravity="center|left"
+            android:text="  Trigger Button!"
+            android:textColor="#333333"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+
+        <Button
+            android:id="@+id/contributeButton"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="96dp"
+            android:background="#4d4b52"
+            android:padding="5dp"
+            android:text="Contribute"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/emergenFormeButton"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="149dp"
+            android:background="#808080"
+            android:padding="5dp"
+
+            android:text="Need Help Now!"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</LinearLayout>
+
+    </ScrollView>
